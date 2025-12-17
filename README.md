@@ -1,19 +1,26 @@
-# qa-saucedemo-portfolio
-QA portfolio project with focus on testing SauceDemo web app [https://www.saucedemo.com]
+# QA Portfolio: SauceDemo Web App
+
+This repository contains a QA portfolio project focused on testing the [SauceDemo web app](https://www.saucedemo.com). The project demonstrates test planning, test case design, and bug reporting for a functional e-commerce workflow.
 
 ## Goals
-- Demonstration of QA skills, including test planning, test case desing, and bug reporting
-- Practice exploratory testing and analysis of edge-cases
-- Build a foundation for test automation in the future
+- Showcase QA skills, including exploratory testing, test case creation, and bug reporting
+- Practice identifying edge cases and negative scenarios
+- Lay the foundation for future test automation
 
 ## Scope
-- Functional testing of basic user flow
-- Negative testing / edge-case testing
-- Documenting test artifacts
+- Functional testing of core user flows (login, cart, checkout)
+- Negative and edge-case testing
+- Documentation of test artifacts including test cases and bug reports
 
-## Tools
+## Tools & Technologies
 - Manual testing
-- Browser DevTools
-- Git (version control)
+- Browser Developer Tools
+- Git for version control
 
-Automation can be added in a later iteration
+**Note:** Automation scripts and frameworks can be added in future iterations to extend this portfolio project.
+
+## Project Structure
+- `test_cases/` – Contains login and cart test case files
+- `bugs/` – Contains individual bug reports in markdown format
+- `screenshots/` – Contains screenshots and other attachments for bug documentation
+- `README.md` – Project overview and instructions
