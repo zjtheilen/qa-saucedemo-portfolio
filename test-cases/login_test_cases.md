@@ -44,7 +44,7 @@
 2. Enter valid password
 3. Click Login button
 **Expected Result:** Username required error message displayed
-**Related Bug:** [BUG-001-login-error-message](../bugs/BUG-003-login-empty-credentials.md)
+**Related Bug:** [BUG-003-login-empty-credentials](../bugs/BUG-003-login-empty-credentials.md)
 
 ---
 
@@ -56,7 +56,7 @@
 2. Leave password empty
 3. Click Login button
 **Expected Result:** Password required error message displayed
-**Related Bug:** [BUG-001-login-error-message](../bugs/BUG-003-login-empty-credentials.md)
+**Related Bug:** [BUG-003-login-empty-credentials](../bugs/BUG-003-login-empty-credentials.md)
 
 ---
 
@@ -68,3 +68,4 @@
 2. Enter valid password
 3. Click Login button
 **Expected Result:** User is locked out error message displayed
+**Related Bug:** [BUG-004-login-locked-out-user](../bugs/BUG-004-login-locked-out-user.md)
