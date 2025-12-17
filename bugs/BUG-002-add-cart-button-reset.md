@@ -9,7 +9,8 @@ Description:
 • When the user adds an item to the cart and then uses the "Reset App State" option, the cart is emptied, but the add to cart buttons are not changed from "Remove" to "Add to cart." This issue resolves only if the user clicks the "Remove" button, refreshes the page, or navigates away and back.
 
 Environment:
-• Browser
+• Browser: Chrome
+• Saucedemo web app
 
 Preconditions:
 • User is on Products page with sidebar expanded

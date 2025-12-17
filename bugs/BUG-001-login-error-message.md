@@ -3,13 +3,14 @@ Reported by: Zachary Theilen
 Date: 2025-12-17
 
 Title:
-Login error message is unclear and unprofessional for invalid credential scenarios
+Unclear error message when user is locked out
 
 Description:
-• When user enters invlaid credentials on login, the application displays a vague/unprofessional error message. This message does not cleary indicate whether username/password/both are incorrect, and uses informal language that might confuse or frustrate users.
+• When locked-out user tries to login, the application displays a vague/unprofessional error message. 
 
 Environment:
-• Browser
+• Browser: Chrome
+• Saucedemo web app
 
 Preconditions:
 • User is on login page
@@ -35,7 +36,7 @@ Additional Scenarios:
 • Invalid username + invalid password
 
 Severity:
-• Low
+• Minor
 
 Priority:
 • Medium
