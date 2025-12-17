@@ -3,10 +3,10 @@ Reported by: Zachary Theilen
 Date: 2025-12-17
 
 Title:
-Add to cart button does not reset on Reset App State
+Add to Cart buttons do not reset after "Reset App State"
 
 Description:
-• When the user adds an item to the cart and then resets the app state, the cart is emptied, but the add to cart button is not changed from Remove to Add to cart. This goes away after the user clicks the Remove button (functionally all this does is reset to default state), navigates away from the page and back, or refreshes their browser.
+• When the user adds an item to the cart and then uses the "Reset App State" option, the cart is emptied, but the add to cart buttons are not changed from "Remove" to "Add to cart." This issue resolves only if the user clicks the "Remove" button, refreshes the page, or navigates away and back.
 
 Environment:
 • Browser
@@ -15,14 +15,15 @@ Preconditions:
 • User is on Products page with sidebar expanded
 
 Steps to Reproduce:
-1. Add item(s) to the card
-2. Click Reset App State in the sidebar
+1. Add one or more item to the card
+2. Click "Reset App State" in the sidebar
 
 Expected Result:
-• Cart should empty and Remove buttons on items should revert to Add to card
+• Cart should empty
+• All "Remove" buttons should revert to "Add to Cart"
 
 Actual Result:
-• Remove buttons do not revert unless user navigates away, refreshes the page, or clicks (and reverts) the button(s)
+• Cart empties, but "Remove" buttons remain until the user refreshes, navigates away, or manually clicks the buttons
 
 Severity:
 • Minor
