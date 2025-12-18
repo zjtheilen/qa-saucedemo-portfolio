@@ -24,7 +24,7 @@ Expected Result:
 • Error messages should be clear, professional, and consistent (e.g., "This user has been locked out.")
 
 Actual Result:
-• Messages read "Epic sadface: Sorry, this user has been locked out."
+• Message reads "Epic sadface: Sorry, this user has been locked out."
 
 Severity:
 • Minor

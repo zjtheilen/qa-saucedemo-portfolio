@@ -7,7 +7,7 @@
 1. Click "Add to cart" on a product
 2. Verify cart icon updates with item count
 **Expected Result:** Cart icon shows 1 item, button changes to "Remove"  
-**Actual Result:**  
+**Actual Result:** As expected
 **Severity:** Minor  
 **Priority:** Medium  
 **Related Bug:** N/A
@@ -21,7 +21,7 @@
 1. Click "Remove" on a product in the Products page
 2. Verify cart icon updates
 **Expected Result:** Cart icon decrements correctly, button changes back to "Add to cart"  
-**Actual Result:**  
+**Actual Result:** As expected
 **Severity:** Minor  
 **Priority:** Medium  
 **Related Bug:** N/A
@@ -35,7 +35,7 @@
 1. Click "Add to cart" on multiple products
 2. Verify cart icon updates with total item count
 **Expected Result:** Cart icon reflects the correct total, buttons change to "Remove"  
-**Actual Result:**  
+**Actual Result:** As expected
 **Severity:** Minor  
 **Priority:** Medium  
 **Related Bug:** N/A
@@ -52,7 +52,7 @@
 **Actual Result:** Remove buttons do not revert unless user navigates away, refreshes, or manually clicks Remove  
 **Severity:** Minor  
 **Priority:** Low  
-**Related Bug:** [BUG-002: Add to cart button does not reset](../bugs/BUG-002-cart-button-reset.md)
+**Related Bug:** [BUG-002: Add to cart button does not reset](../bugs/BUG-002-cart-addtocart-button-reset/BUG-002-cart-addtocart-button-reset.md)
 
 ---
 
@@ -63,7 +63,7 @@
 1. Navigate to another page (e.g., About or Inventory)
 2. Return to Products page
 **Expected Result:** Items remain in the cart, cart count reflects current items  
-**Actual Result:**  
+**Actual Result:** As expected
 **Severity:** Minor  
 **Priority:** Medium  
 **Related Bug:** N/A
@@ -79,5 +79,4 @@
 **Actual Result:** Field is not selectable or editable  
 **Severity:** Medium  
 **Priority:** Medium
-  <!-- TODO: change to correct bug report -->
-**Related Bug:** [BUG-005: Cart quantity can't be changed](../bugs/BUG-005-cart-quantity-bug.md)
+**Related Bug:** [BUG-005: Cart quantity can't be changed](../bugs/BUG-005-cart-quantity/BUG-005-cart-quantity-bug.md)

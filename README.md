@@ -1,3 +1,5 @@
+![QA Portfolio](https://img.shields.io/badge/QA%20Portfolio-SauceDemo-blue)
+
 # QA Portfolio: SauceDemo Web App
 
 This repository contains a QA portfolio project focused on testing the [SauceDemo web app](https://www.saucedemo.com). The project demonstrates test planning, test case design, and bug reporting for a functional e-commerce workflow.
@@ -24,3 +26,8 @@ This repository contains a QA portfolio project focused on testing the [SauceDem
 - `bugs/` – Contains individual bug reports in markdown format
 - `screenshots/` – Contains screenshots and other attachments for bug documentation
 - `README.md` – Project overview and instructions
+
+## How to use this repo
+1. Read the test plan
+2. Explore test cases by feature
+3. View bug reports with screenshots
