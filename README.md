@@ -19,15 +19,31 @@ This repository contains a QA portfolio project focused on testing the [SauceDem
 - Browser Developer Tools
 - Git for version control
 
-**Note:** Automation scripts and frameworks can be added in future iterations to extend this portfolio project.
-
 ## Project Structure
 - `test_cases/` – Contains login and cart test case files
 - `bugs/` – Contains individual bug reports in markdown format
 - `screenshots/` – Contains screenshots and other attachments for bug documentation
 - `README.md` – Project overview and instructions
 
-## How to use this repo
+## Test Execution Summary
+
+| Area Tested | Test Cases | Passed | Failed | Related Bugs |
+|------------|------------|--------|--------|--------------|
+| Login      | 6          | 2      | 4      | BUG-001, BUG-003, BUG-004 |
+| Cart       | 5          | 2      | 3      | BUG-002, BUG-005 |
+| **Total**  | **11**     | **4**  | **7**  | **5 Bugs Logged** |
+
+### Notes
+- Test cases were executed manually against the SauceDemo web application
+- Failed tests correspond to documented defects in the `/bugs` directory
+- SauceDemo is a known demo application containing intentional defects for testing practice
+- Passed test cases met expected behavior and revealed no defects during execution
+
+## How to Review This Project
 1. Read the test plan
 2. Explore test cases by feature
 3. View bug reports with screenshots
+
+## Future Improvements
+1. Automation scripts
+2. Frameworks
