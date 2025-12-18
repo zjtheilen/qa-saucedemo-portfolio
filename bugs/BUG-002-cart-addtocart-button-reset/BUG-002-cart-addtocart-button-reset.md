@@ -31,3 +31,7 @@ Severity:
 
 Priority:
 • Low
+
+Notes / Attachments:
+- Screenshot: [BUG-002-cart-addtobutton-reset.mp4](./BUG-002-cart-addtobutton-reset.mp4)
+

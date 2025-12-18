@@ -32,6 +32,5 @@ Severity: Minor (functional limitation affecting usability, but not breaking cor
 Priority: Medium
 
 Notes / Attachments:
-- Screenshot: [BUG-005-cart-quantity.png](../bugs/BUG-005-cart-quantity/screenshot.png)
-- Video: [BUG-005-cart-quantity.mp4](../bugs/BUG-005-cart-quantity/video.mp4)
+- Screenshot: [BUG-005-cart-quantity.png](./BUG-005-cart-quantity-bug.png)
 

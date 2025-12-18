@@ -9,7 +9,7 @@
 3. Enter the correct password
 4. Click Login button
 **Expected Result:** User gets redirected to Products page  
-**Actual Result:**  
+**Actual Result:** As expected
 **Severity:** Minor  
 **Priority:** Medium  
 **Related Bug:** N/A
@@ -24,7 +24,7 @@
 2. Enter invalid password
 3. Click Login button
 **Expected Result:** Invalid credentials error message displayed  
-**Actual Result:**  
+**Actual Result:** Unprofessional error message - "Epic sadface: Username and password do not match any user in this service"
 **Severity:** Major  
 **Priority:** High  
 **Related Bug:** [BUG-001: Login error message](../bugs/BUG-001-login-error-message.md)
@@ -39,7 +39,7 @@
 2. Enter valid password
 3. Click Login button
 **Expected Result:** Invalid credentials error message displayed  
-**Actual Result:**  
+**Actual Result:** Unprofessional error message - "Epic sadface: Username and password do not match any user in this service"
 **Severity:** Major  
 **Priority:** High  
 **Related Bug:** [BUG-001: Login error message](../bugs/BUG-001-login-error-message.md)
@@ -54,7 +54,7 @@
 2. Enter valid password
 3. Click Login button
 **Expected Result:** Username required error message displayed  
-**Actual Result:**  
+**Actual Result:** Unprofessional error message - "Epic sadface: Username is required"
 **Severity:** Minor  
 **Priority:** Medium  
 **Related Bug:** [BUG-003: Login empty credentials](../bugs/BUG-003-login-empty-credentials.md)
@@ -69,7 +69,7 @@
 2. Leave password empty
 3. Click Login button
 **Expected Result:** Password required error message displayed  
-**Actual Result:**  
+**Actual Result:** Unprofessional error message - "Epic sadface: Password is required"
 **Severity:** Minor  
 **Priority:** Medium  
 **Related Bug:** [BUG-003: Login empty credentials](../bugs/BUG-003-login-empty-credentials.md)
@@ -84,7 +84,7 @@
 2. Enter valid password
 3. Click Login button
 **Expected Result:** User is locked out error message displayed  
-**Actual Result:**  
+**Actual Result:** Unprofessional error message - "Epic sadface: Sorry, this user has been locked out."
 **Severity:** Major  
 **Priority:** High  
 **Related Bug:** [BUG-004: Login locked-out user](../bugs/BUG-004-login-locked-out-user.md)
