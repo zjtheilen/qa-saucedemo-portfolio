@@ -21,8 +21,7 @@ This repository contains a QA portfolio project focused on testing the [SauceDem
 
 ## Project Structure
 - `test_cases/` – Contains login and cart test case files
-- `bugs/` – Contains individual bug reports in markdown format
-- `screenshots/` – Contains screenshots and other attachments for bug documentation
+- `bugs/` – Contains individual bug reports, each with related screenshots or videos when applicable
 - `README.md` – Project overview and instructions
 
 ## Test Execution Summary
